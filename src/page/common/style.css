@@ -1,0 +1,44 @@
+.header, footer {
+    background-color: #4e0000;
+    color: white;
+}
+
+.header {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#header-logo {
+    text-align: left;
+    width: 100%;
+    margin: 10px 0 0 15px;
+}
+
+footer {
+    height: auto;
+    position: relative;
+    font-size: 12pt;
+    color: #aaa;
+}
+footer a {
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none;
+    border-bottom: 2px dashed;
+}
+footer a:hover {
+    color: #fff;
+    border-bottom: 2px solid;
+}
+footer ul {
+    list-style: none;
+}
+footer .inner-container .coluna {
+    max-width: 250px;
+    margin: 0 15px;
+}
+footer #linha-de-baixo {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}

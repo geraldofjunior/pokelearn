@@ -1,0 +1,23 @@
+.pagination {
+    list-style: none;
+}
+
+.pagination li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    color: white;
+    background-color: #4e0000;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 3px 4px 10px 11px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.pagination .current, .pagination li:hover {
+    border: #4e0000 1px solid;
+    background-color: white;
+    color: #4e0000;
+    font-weight: bold;
+}
